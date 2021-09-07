@@ -1,0 +1,23 @@
+{
+  "name": "yosecoin",
+  "version": "0.0.1",
+  "description": "BEP20 token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-perso:CryptoUniverses/YoseCoin.git"
+  },
+  "author": "Yose216",
+  "license": "MIT",
+  "dependencies": {
+      "@openzeppelin/contracts": "^4.3.0",
+      "@truffle/hdwallet-provider": "^1.5.0",
+      "web3-provider-engine": "^16.0.3"
+  }
+}
